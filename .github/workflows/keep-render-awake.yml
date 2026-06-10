@@ -1,0 +1,13 @@
+name: Keep DS2API Awakewake
+on:
+  schedule:
+    - cron: '*/10****'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping render
+      run: |
+        curl -L https://ds2api-huww.onrender.com
+    - 
