@@ -15,12 +15,7 @@
   "accounts": [
     {
       "name": "main",
-      "email": "strongmainvietnam@gmail.com",
-      "password": "@Tung1986ds2api"
-    },
-    {
-      "name": "backup",
-      "email": "bachthy2012@gmail.com",
+      "email": "strongmanvietnam@gmail.com",
       "password": "@Tung1986ds2api"
     }
   ],
