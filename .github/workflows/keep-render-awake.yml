@@ -1,7 +1,7 @@
-name: Keep DS2API Awakewake
+name: Keep DS2API Awake
 on:
   schedule:
-    - cron: '*/10****'
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 jobs:
   ping:
@@ -10,4 +10,3 @@ jobs:
       - name: Ping render
         run: |
           curl -L https://ds2api-huww.onrender.com
-    - 
