@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping render
-      run: |
-        curl -L https://ds2api-huww.onrender.com
+        run: |
+          curl -L https://ds2api-huww.onrender.com
     - 
