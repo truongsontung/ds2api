@@ -1,7 +1,7 @@
 name: Keep DS2API Awake
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 jobs:
   ping:
